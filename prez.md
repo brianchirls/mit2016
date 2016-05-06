@@ -39,10 +39,11 @@ class: center, middle
 - Browser's built-in security sandbox
 
 ---
-# Distribution Restrictions
+# Distribution: Bullets Dodged
 - No app approval process
 - No censorship (political, anti-competitive)
 - Own your data
+- Archivable: Standard tech outlasts proprietary tech
 - Developer tools are free (as in beer 🍺 and as in 🗣)
 
 ---
