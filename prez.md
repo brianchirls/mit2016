@@ -35,6 +35,7 @@ class: center, middle
 - Delivered as a web page
 - Commodity web servers, CDN
 - No app install required
+- Write once, run anywhere
 - Streaming content, start VR < 1 second
 - Browser's built-in security sandbox
 
