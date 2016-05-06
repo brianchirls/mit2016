@@ -19,7 +19,10 @@ class: center, middle
 ---
 
 # What is Web VR?
-- VR delivered as a web page
+- It's just a web page
+- WebGL for hardware accelerated graphics
+- WebVR API for position/orientation ("Pose") tracking
+- Positional audio (Web Audio API)
 
 ---
 
@@ -29,6 +32,22 @@ class: center, middle
 - Graphics API limited to what's available on mobile
 - Limited graphical authoring tools
 - Not amazing for video (yet)
+
+---
+
+# Physical Distribution
+- Delivered as a web page
+- Commodity web servers, CDN
+- No app install required
+- Streaming content, start VR < 1 second
+- Browser's built-in security sandbox
+
+---
+# Distribution Restrictions
+- No app approval process
+- No censorship (political, anti-competitive)
+- Own your data
+- Developer tools are free (as in beer 🍺 and as in 🗣)
 
 ---
 
@@ -42,7 +61,7 @@ class: center
 ---
 # Technical Responsive Factors
 - Screen size
-- Inputs
+- Inputs (mouse, touch, keys, gamepad, etc)
 - CPU/GPU performance
 - Network bandwidth/latency
 - ...
@@ -55,6 +74,61 @@ class: center
 - Wealth/Income
 - Attention
 - ...
+
+---
+# How the web adapts
+- Graceful degredation
+- Feature detection
+- Adaptive rendering
+
+---
+# Broken assumptions of "native" VR
+- Fast, reliable network
+- Content downloaded, installed in advance
+- Functioning spinny chair
+- or dedicated VR real estate
+- No distractions (kids, pets, job)
+
+---
+
+# Design Implications
+- Even the best scenarios occasionally break
+- Build for the worst-case scenario
+- ~~How well does it work?~~
+- How well does it fail?
+- Best-case scenario becomes smoother, more reliable
+
+---
+
+class:center
+
+# Basic Example
+<div style="float: left">.center[<iframe width="600" height="500" src="https://brillsnthrills.surge.sh" frameborder="0" allowfullscreen></iframe>]</div>
+<!--
+- Total size 1.1 MB
+- 
+-->
+https://brillsnthrills.surge.sh/
+
+---
+
+class:center
+
+# Example
+<div style="margin-top:-1em">.center[<iframe width="100%" height="500" src="https://bb8.surge.sh" frameborder="0" allowfullscreen></iframe>]</div>
+- 2.6 MB over the wire(less)
+- < 700kb to first frame in VR
+- Experience adapts to technology
+
+---
+
+# Inclusion
+- Minimal cost of creation: ~$150
+- Google Cardboard
+- School/Public library computer and WiFi
+- Free hosting (github, codepen, jsbin, etc)
+- WebVR Starter Kit
+- A-Frame https://aframe.io
 
 ---
 
