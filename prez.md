@@ -1,6 +1,6 @@
 class: center, middle
 
-# WebVR: Accessibility, Democratization and the Future of the Immersive Web 
+# WebVR: Accessibility, Democratization, <span style="font-size: 0.7em">yadda yadda yadda</span>
 
 ---
 
@@ -10,10 +10,6 @@ class: center, middle
 - NYC, US
 - Does code, media
 - CTO, Datavized, data-driven immersive media
-- Web-based media projects
-  - Knight Technolgy Fellow @ POV Digital 2014-2015
-  - Seriously.js creator
-  - Popcorn.js contributor
 - Likes audiences, tolerates creators
 
 ---
@@ -103,22 +99,21 @@ class: center
 class:center
 
 # Basic Example
-<div style="float: left">.center[<iframe width="600" height="500" src="https://brillsnthrills.surge.sh" frameborder="0" allowfullscreen></iframe>]</div>
-<!--
-- Total size 1.1 MB
-- 
--->
+<div>.center[<iframe width="100%" height="500" src="https://brillsnthrills.surge.sh" frameborder="0" allowfullscreen></iframe>]</div>
 https://brillsnthrills.surge.sh/
 
 ---
 
-class:center
+class: middle, smaller
 
 # Example
-<div style="margin-top:-1em">.center[<iframe width="100%" height="500" src="https://bb8.surge.sh" frameborder="0" allowfullscreen></iframe>]</div>
+<div style="float: right; margin-left: 10px">.center[<iframe width="600" height="500" src="https://bb8.surge.sh" frameborder="0" allowfullscreen></iframe>]</div>
+- BB-8 fan art
 - 2.6 MB over the wire(less)
 - < 700kb to first frame in VR
 - Experience adapts to technology
+- Immediately display sky, dunes
+- Robot model loads in background
 
 ---
 
@@ -166,7 +161,7 @@ class: smaller
 - [@bchirls](http://twitter.com/bchirls), [@datavized](http://twitter.com/datavized)
 
 ## Work
-- [datavized](http://datavized.com)
+- [datavized.com](http://datavized.com)
 
 ## Code
 - [github.com/brianchirls](http://github.com/brianchirls)
