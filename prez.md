@@ -10,7 +10,7 @@ class: center, middle
 - NYC, US
 - Does code, media
 - CTO, Datavized, data-driven immersive media
-- Likes audiences, tolerates creators
+- Likes humans, tolerates creators
 
 ---
 
@@ -18,6 +18,7 @@ class: center, middle
 - It's just a web page
 - WebGL for hardware accelerated graphics
 - WebVR API for position/orientation ("Pose") tracking
+- Gamepad API for controllers
 - Positional audio (Web Audio API)
 
 ---
@@ -75,8 +76,8 @@ class: center
 
 ---
 # How the web adapts
-- Graceful degredation
 - Feature detection
+- Graceful degredation
 - Adaptive rendering
 
 ---
@@ -84,7 +85,7 @@ class: center
 - Fast, reliable network
 - Content downloaded, installed in advance
 - Functioning spinny chair
-- or dedicated VR real estate
+- Dedicated VR real estate
 - No distractions (kids, pets, job)
 
 ---
@@ -111,8 +112,8 @@ class: middle, smaller
 # Example
 <div style="float: right; margin-left: 10px">.center[<iframe width="600" height="500" src="https://bb8.surge.sh" frameborder="0" allowfullscreen></iframe>]</div>
 - BB-8 fan art
-- 2.6 MB over the wire(less)
-- < 700kb to first frame in VR
+- 864 KB over the wire(less)
+- ~200kb to first frame in VR
 - Experience adapts to technology
 - Immediately display sky, dunes
 - Robot model loads in background
@@ -124,7 +125,7 @@ class: middle, smaller
 - Google Cardboard
 - School/Public library computer and WiFi
 - Free hosting (github, codepen, jsbin, etc)
-- WebVR Starter Kit
+- Lots of people know HTML/JavaScript
 - A-Frame https://aframe.io
 
 ---
@@ -134,14 +135,15 @@ class: smaller
 # Current support
 
 - Chrome (experimental)
-  - Oculus Rift (Windows only)
-  - HTC Vive (Windows only, for now?)
+  - Oculus Rift & HTC Vive (Windows only)
+  - Daydream & Cardboard Q1 2017
 - Firefox (Nightly)
-  - Oculus Rift (Windows only)
-  - WebVR deprecated API
+  - Oculus Rift & HTC Vive (Windows only)
+- GearVR, Oculus "Carmel" (Developer Preview)
+  - no 2D browser yet
 - GearVR, Samsung Internet browser
   - enabled with flag
-  - performance upgrades in progress
+  - optimized for video only
 - Cardboard
   - Android
   - iPhone
@@ -150,7 +152,8 @@ class: smaller
 ---
 
 # Future
-- Release in stable browsers, Q4 2016?
+- Release in stable browsers this year
+- Microsoft Edge
 - Faster, smaller, cheaper hardware
 - WebGL 2
 - Improving design practices and content
